@@ -1,0 +1,267 @@
+html {
+	box-sizing: border-box
+}
+
+body {
+    margin: 0px;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box
+}
+
+.photos {
+	float: left;
+	width: 100%;
+	width: 25%;
+	padding: 0 35px
+}
+
+.row-padding:after,
+.row-padding:before {
+	content: "";
+	display: table;
+	clear: both
+}
+
+.br-opacity: {
+	opacity: 0;
+}
+
+.row-padding {
+	padding: 0 150px
+}
+
+.row-padding-16px {
+	padding-top: 16px !important;
+	padding-bottom: 16px !important
+}
+
+.banners img:hover {
+  border: solid 3px black;
+  margin: -10px;
+  color: black;
+}
+
+.button {
+  width: 18%;
+  color: #000000;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  margin: -4px 0px;
+  transition-duration: 0.4s;
+}
+
+.currentbutton {
+  background-color: #ababab;
+  width: 18%;
+  color: #000000;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  margin: -4px 0px;
+  transition-duration: 0.4s;
+}
+
+.button1 {
+  background-color: #98FB98; 
+  color: black; 
+  border: 2px solid #000000;
+}
+
+.button1:hover {
+  background-color: #000000;
+  color: white;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: red;
+}
+
+hr.new {
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 15px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+.contact {
+	padding-top: 100px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+@media only screen and (max-width: 767px) {
+
+.contact { 
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.row-padding {
+	padding: 0px;
+}
+
+.row-padding-16px {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important
+}
+
+.photos {
+
+	padding: 5px
+}
+
+}
+
+.header {
+  margin: 80px;
+  padding: 20px;
+  text-align: center;
+  background: #ababab;
+  color: white;
+  font-size: 20px;
+}
+
+.headerinside {
+  position: center;
+  margin: 40px;
+  padding: 30px;
+  text-align: left;
+  background: #efc050;
+  color: white;
+  font-size: 20px;
+}
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
