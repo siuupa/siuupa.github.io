@@ -135,29 +135,6 @@ hr.new {
 	padding-right: 200px;
 }
 
-@media only screen and (max-width: 767px) {
-
-.contact { 
-	padding-top: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
-.row-padding {
-	padding: 0px;
-}
-
-.row-padding-16px {
-	padding-top: 0px !important;
-	padding-bottom: 0px !important
-}
-
-.photos {
-
-	padding: 5px
-}
-
-}
 
 .header {
   margin: 80px;
@@ -177,6 +154,101 @@ hr.new {
   color: white;
   font-size: 20px;
 }
+
+.recipe-text {
+  margin-left: 250px; 
+  margin-right: 250px; 
+  line-height: 1.6; 
+  text-align: left;
+}
+
+@media only screen and (max-width: 767px) {
+
+.contact { 
+	padding-top: 110px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.row-padding {
+	padding: 0px;
+  text-align: justify;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.button {
+  width: 35%;
+  color: #000000;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 30px;
+  transition-duration: 0.4s;
+}
+
+.currentbutton {
+  background-color: #ababab;
+  width: 35%;
+  color: #000000;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 30px;
+  transition-duration: 0.4s;
+}
+
+.row-padding-16px {
+ text-align: justify;
+}
+
+.photos {
+  margin-left: 30px;
+  width: 85%;
+	padding: 25px
+}
+
+.banners {
+  margin: 15px;
+  padding: 15px;
+  width: 100%;
+}
+
+.recipe-text {
+  margin-left: 5px; 
+  margin-right: 5px; 
+  line-height: 1.6; 
+  text-align: left;
+}
+
+.photo-main-page {
+  width:100%;
+}
+
+.header {
+  margin: 10px;
+  padding: 10px;
+  padding-top: 50px;
+  text-align: center;
+  background: #ababab;
+  color: white;
+  font-size: 20px;
+}
+}
+
 #fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
